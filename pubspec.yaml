@@ -1,0 +1,40 @@
+name: movie_db
+description: "A cinema app featuring intuitive browsing and comprehensive movie details with seamless user experience."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.8.0-70.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animate_do: ^4.2.0
+  cached_network_image: ^3.2.0
+  carousel_slider: ^5.0.0
+  flutter_riverpod: ^2.6.1
+  get: ^4.6.1
+  http: ^1.3.0
+  intl: ^0.20.2
+  url_launcher: ^6.0.17
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+
